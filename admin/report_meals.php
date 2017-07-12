@@ -86,7 +86,7 @@ td {
                         </tr>';
 $tbl_footer = '</table>';
 $tbl = '';
-$selm=mysqli_query($con,"select * from meal left join hotels on meal.hotel_id=hotels.h_id where hotels.h_id='".$_REQUEST['hid']."'") or die(mysqli_error($con));
+$selm=mysqli_query($con,"select * from meal left join hotels on meal.hotel_id=hotels.h_id") or die(mysqli_error($con));
                     $i=0;
                     while($row=mysqli_fetch_array($selm,MYSQLI_ASSOC)){
                     $i++;

@@ -173,7 +173,7 @@ require_once('../auth.php');
                             <!-- block -->
                             <div class="block">
                                 <div class="navbar navbar-inner block-header">
-                                    <div class="muted pull-left"><a href="orders.php">Orders</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="ordersreportperiod.php" style="background-color:orange;color:white;font-size:16px;padding:8px;border-radius:5px;text-decoration:none">Download Report</a></div>
+                                    <div class="muted pull-left"><a href="orders.php">Orders</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="ordersreportperiod.php" style="background-color:orange;color:white;font-size:16px;padding:8px;border-radius:5px;text-decoration:none">Download Report</a></div>
                                     <div class="pull-right"><span class="badge badge-info" style="padding:8px;margin-bottom:5px;">
                                     <?php
                                     /*$sql= mysqli_query($con,"select * from orders");
